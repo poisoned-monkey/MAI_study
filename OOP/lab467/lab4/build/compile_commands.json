@@ -1,0 +1,8 @@
+[
+  {
+    "directory": "/Users/nataliazavodnova/Documents/MAI_study/second_year/oop_exercise_04/build",
+    "command": "c++ -Ilab4@exe -I. -I.. -Xclang -fcolor-diagnostics -pipe -Wall -Winvalid-pch -Wnon-virtual-dtor -g -MD -MQ 'lab4@exe/main.cpp.o' -MF 'lab4@exe/main.cpp.o.d' -o 'lab4@exe/main.cpp.o' -c ../main.cpp",
+    "file": "../main.cpp",
+    "output": "lab4@exe/main.cpp.o"
+  }
+]

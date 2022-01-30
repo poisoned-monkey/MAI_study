@@ -1,0 +1,7 @@
+#include "matrix.h"
+
+
+
+std::pair<size_t, size_t> Matrix::shape() const {
+    return {n,m};
+}

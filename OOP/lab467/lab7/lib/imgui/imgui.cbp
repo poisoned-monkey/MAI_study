@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="imgui"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\SDL2\;CMake Files\lib\SDL2\cmake\;CMake Files\lib\SDL2\include\;CMake Files\lib\imgui\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/imgui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/imgui/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/imgui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/imgui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/imgui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imgui">
+				<Option output="/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/imgui/libimgui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/imgui"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/imgui/."/>
+					<Add directory="/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/SDL2/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/imgui/Makefile&quot;  VERBOSE=1 imgui"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/imgui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/imgui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/imgui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imgui/fast">
+				<Option output="/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/imgui/libimgui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/imgui"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/imgui/."/>
+					<Add directory="/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/SDL2/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/imgui/Makefile&quot;  VERBOSE=1 imgui/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/imgui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/imgui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/imgui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/imgui/imgui.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/imgui/imgui.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/imgui/imgui_draw.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/imgui/imgui_impl_sdl.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/imgui/imgui_impl_sdl.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/imgui/imgui_sdl.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/imgui/imgui_sdl.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/imgui/imgui_widgets.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/SDL2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\SDL2\"/>
+		</Unit>
+		<Unit filename="/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/SDL2/SDL2.spec.in">
+			<Option virtualFolder="CMake Files\lib\SDL2\"/>
+		</Unit>
+		<Unit filename="/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/SDL2/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\lib\SDL2\"/>
+		</Unit>
+		<Unit filename="/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/SDL2/sdl2-config.in">
+			<Option virtualFolder="CMake Files\lib\SDL2\"/>
+		</Unit>
+		<Unit filename="/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/SDL2/sdl2.pc.in">
+			<Option virtualFolder="CMake Files\lib\SDL2\"/>
+		</Unit>
+		<Unit filename="/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/SDL2/cmake/macros.cmake">
+			<Option virtualFolder="CMake Files\lib\SDL2\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/SDL2/cmake/sdlchecks.cmake">
+			<Option virtualFolder="CMake Files\lib\SDL2\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/SDL2/include/SDL_config.h.cmake">
+			<Option virtualFolder="CMake Files\lib\SDL2\include\"/>
+		</Unit>
+		<Unit filename="/Users/nataliazavodnova/CLionProjects/oop_lab_7_final/lib/imgui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\imgui\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

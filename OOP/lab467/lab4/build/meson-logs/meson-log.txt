@@ -1,0 +1,62 @@
+Build started at 2020-01-11T16:50:02.824871
+Main binary: /Users/nataliazavodnova/anaconda3/bin/python
+Build Options: 
+Python system: Darwin
+The Meson build system
+Version: 0.53.0
+Source dir: /Users/nataliazavodnova/Documents/MAI_study/second_year/oop_exercise_04
+Build dir: /Users/nataliazavodnova/Documents/MAI_study/second_year/oop_exercise_04/build
+Build type: native build
+Project name: oop_exercise_04
+Project version: undefined
+No CXXFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ /Users/nataliazavodnova/Documents/MAI_study/second_year/oop_exercise_04/build/meson-private/sanitycheckcpp.cc -o /Users/nataliazavodnova/Documents/MAI_study/second_year/oop_exercise_04/build/meson-private/sanitycheckcpp.exe -pipe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /Users/nataliazavodnova/Documents/MAI_study/second_year/oop_exercise_04/build/meson-private/sanitycheckcpp.exe
+C++ compiler for the build machine: c++ (clang 10.0.0 "Apple LLVM version 10.0.0 (clang-1000.10.44.4)")
+C++ linker for the build machine: c++ APPLE ld 409.12
+No CXXFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ /Users/nataliazavodnova/Documents/MAI_study/second_year/oop_exercise_04/build/meson-private/sanitycheckcpp.cc -o /Users/nataliazavodnova/Documents/MAI_study/second_year/oop_exercise_04/build/meson-private/sanitycheckcpp.exe -pipe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /Users/nataliazavodnova/Documents/MAI_study/second_year/oop_exercise_04/build/meson-private/sanitycheckcpp.exe
+C++ compiler for the host machine: c++ (clang 10.0.0 "Apple LLVM version 10.0.0 (clang-1000.10.44.4)")
+C++ linker for the host machine: c++ APPLE ld 409.12
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Build targets in project: 1
+
+Found ninja-1.9.0 at /usr/local/bin/ninja
+Running compile:
+Working directory:  /Users/nataliazavodnova/Documents/MAI_study/second_year/oop_exercise_04/build/meson-private/tmpez_zu_5_
+Command line:  c++ /Users/nataliazavodnova/Documents/MAI_study/second_year/oop_exercise_04/build/meson-private/tmpez_zu_5_/testfile.cpp -o /Users/nataliazavodnova/Documents/MAI_study/second_year/oop_exercise_04/build/meson-private/tmpez_zu_5_/output.obj -pipe -c -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ programs: =/Library/Developer/CommandLineTools/usr/bin
+libraries: =/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0
+
+Compiler stderr:
+ 

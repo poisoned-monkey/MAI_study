@@ -1,0 +1,15 @@
+#ifndef TRANSFORMER_H
+#define TRANSFORMER_H
+
+struct TransformParameters{
+    double rotate_angle = 0;
+    double 
+}
+
+class Transformer
+{
+public:
+    Transformer();
+};
+
+#endif // TRANSFORMER_H

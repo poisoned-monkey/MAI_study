@@ -1,0 +1,36 @@
+#ifndef MATRIX_H
+#define MATRIX_H
+
+#include<QVector>
+#include<tuple>
+#include<array>
+
+template <typename T>
+class Matrix
+{
+public:
+    
+    template <size_t N>
+    Matrix(const std::initializer_list<std::array<T, N>>& elements);
+    
+    std::pair<size_t, size_t> shape() const;
+    
+private:
+    QVector<std::array<T>> matrix;
+    size_t n = 0, m = 0;
+};
+
+
+template <size_t N>
+Matrix::Matrix(std::initializer_list<std::array<T, N>> elements) {
+    m = N;
+    if (elements.size() != 0) {
+        n = elements.size();
+        for (std::array<T, N>& v : elements) {
+            matrix.push_back(std::move(v));
+        }
+    }
+}
+
+
+#endif // MATRIX_H
